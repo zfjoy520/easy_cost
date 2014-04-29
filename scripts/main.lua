@@ -6,4 +6,4 @@ function __G__TRACKBACK__(errorMessage)
     print("----------------------------------------")
 end
 
-require("app.MyApp").new():run()
+require("app.EasyCost").new():run()
