@@ -1,0 +1,45 @@
+{"Tag":
+    [
+     {"color":"greenColor","name":"绿色标签"},
+     {"color":"yellowColor","name":"黄色标签"},
+     {"color":"orangeColor","name":"橙色标签"},
+     {"color":"redColor","name":"红色标签"},
+     {"color":"purpleColor","name":"紫色标签"},
+     {"color":"blueColor","name":"蓝色标签"}
+     ],
+    "Catalog":
+    [
+     {"pay":true,"icon":"catalog.png","name":"一般消费"},
+     {"pay":true,"icon":"eat.png","name":"餐饮"},
+     {"pay":true,"icon":"movie.png","name":"电影"},
+     {"pay":false,"icon":"salary.png","name":"工资"},
+     {"pay":true,"icon":"drink.png","name":"饮料"},
+     {"pay":true,"icon":"shuma.png","name":"数码"},
+     {"pay":true,"icon":"huafei.png","name":"话费"},
+     {"pay":true,"icon":"social.png","name":"社交"},
+     {"pay":true,"icon":"bus.png","name":"交通"},
+     {"pay":true,"icon":"lingshi.png","name":"零食"},
+     {"pay":true,"icon":"cloth.png","name":"衣服"}
+     ],
+    "Bill":
+    [
+     {"name":"一般消费","money":803,"pay":true,"mome":"下拉新建账单"},
+     {"name":"餐饮","money":123,"pay":true,"mome":"点击我编辑"},
+     {"name":"电影","money":36,"pay":true,"mome":"长按我删除"},
+     {"name":"工资","money":8023,"pay":false,"mome":"绿色表示收入"},
+     {"name":"数码","money":123,"pay":true,"mome":"左右滑切换账本"},
+     {"name":"话费","money":100,"pay":true,"mome":"横屏查看报表"},
+     {"name":"交通","money":18,"pay":true,"mome":"试试双指缩放"},
+     {"name":"社交","money":156,"pay":true},
+     {"name":"零食","money":28,"pay":true},
+     {"name":"饮料","money":9,"pay":true}
+     ],
+    "Book":
+    
+    [
+     {"name":"示例账本","position":1},
+     {"name":"日常开销","position":2},
+     {"name":"旅游","position":3},
+     {"name":"公司账本","position":4}
+     ]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
