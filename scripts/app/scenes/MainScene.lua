@@ -6,6 +6,7 @@ end)
 function MainScene:ctor()
     self.bg = display.newSprite("LaunchImage.png", display.cx, display.cy)
     self:addChild(self.bg)
+    self:markAutoCleanupImage("LaunchImage.png")
 end
 
 function MainScene:onEnter()
@@ -22,6 +23,10 @@ function MainScene:onEnter()
             layer:setKeypadEnabled(true)
         end, 0.5)
     end
+
+    self:performWithDelay(function()
+        app:enterScene("BookScene", nil, "fade", 0.6, display.COLOR_WHITE)
+    end, 0.5)
 end
 
 function MainScene:onExit()
